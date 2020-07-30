@@ -21,3 +21,10 @@ The client application is developed in Java using Android Studio. Its Graphical 
 
 <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/icon.png" width="230"> <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/splashScreen.png" width="230"> <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/SettingsWindow.png" width="230"> <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/MainWindow.png" width="230">
 
+## DEMO
+1. First we need to start the server
+
+![Server_Demo](https://github.com/Lkham/ChatBot/blob/master/Demo/Server_Demo.gif)
+2. Now start with the Mobile App
+
+![Android_Demo](https://github.com/Lkham/ChatBot/blob/master/Demo/Android-Demo.gif)
