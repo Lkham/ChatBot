@@ -33,13 +33,13 @@ python -m spacy download en
 ```
 
 ## DEMO
-1. First we need to start the server. You can then run the Server.py script in Server folder:
+* First we need to start the server. You can then run the Server.py script in Server folder:
 
 ![Server_Demo](https://github.com/Lkham/ChatBot/blob/master/Demo/Server_Demo.gif)
 
-2. Second we need to install our *ai chatbot app* on our android device using chatbot.apk.
- 1. Copy chatbot.apk to your device
- 2. Install it on your device
- 3. Run the application:
+* Second we need to install our *ai chatbot app* on our android device using chatbot.apk.
+  1. Copy chatbot.apk to your device
+  2. Install it on your device
+  3. Run the application:
 
 ![Android_Demo](https://github.com/Lkham/ChatBot/blob/master/Demo/Android-Demo.gif)
