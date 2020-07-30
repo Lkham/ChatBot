@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beach">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/ipAdd"
+        android:layout_above="@+id/port1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:hint="Server IP address"
+
+        android:backgroundTint="#fff"
+        android:fontFamily="@font/moon_bold"
+        android:inputType="number|textWebEditText"
+        android:textColor="@color/colorTextBlack"
+        android:textColorHint="#A4A4F7"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/port1"
+        android:layout_above="@+id/port2"
+        android:layout_centerHorizontal="true"
+        android:hint="Port1 Number"
+
+        android:backgroundTint="#fff"
+        android:fontFamily="@font/moon_bold"
+        android:inputType="number|textWebEditText"
+        android:textColor="@color/colorTextBlack"
+        android:textColorHint="#A4A4F7"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/port2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Port2 Number"
+
+        android:backgroundTint="#fff"
+        android:fontFamily="@font/moon_bold"
+        android:inputType="number|textWebEditText"
+        android:textColor="@color/colorTextBlack"
+        android:textColorHint="#A4A4F7"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/btnOk"
+        android:layout_below="@+id/port2"
+        android:layout_alignLeft="@+id/port2"
+        android:layout_alignStart="@+id/port2"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/moon_bold"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOk"
+        android:text="remember me"
+        android:id="@+id/checkbox"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/moon_bold"
+        android:textColor="@color/colorTextBlack"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+<string name="app_name">chatbot</string>
+<string name="checkbox">com.example.settingstest.checkbox</string>
+<string name="ip">com.example.settingstest.ip</string>
+<string name="port1">com.example.settingstest.port1</string>
+<string name="port2">com.example.settingstest.port2</string>
+</resources>
