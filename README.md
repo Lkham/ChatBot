@@ -21,10 +21,27 @@ The client application is developed in Java using Android Studio. Its Graphical 
 
 <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/icon.png" width="230"> <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/splashScreen.png" width="230"> <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/SettingsWindow.png" width="230"> <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/MainWindow.png" width="230">
 
+## Installation
+
+In order to run the server, please clone the repo and install the requirements:
+
+```bash
+git clone https://github.com/Lkham/ChatBot.git
+cd ChatBot
+pip install -r requirements.txt
+python -m spacy download en
+```
+
 ## DEMO
-1. First we need to start the server
+* First we need to start the server. You can then run the `Server.py` script in Server folder:
 
 ![Server_Demo](https://github.com/Lkham/ChatBot/blob/master/Demo/Server_Demo.gif)
-2. Now start with the Mobile App
+
+* Second we need to install our *ai chatbot app* on our android device using `chatbot.apk`.
+  1. Copy `chatbot.apk` to your device
+  2. Install it on your device
+  3. Run the application
+  
+* Finaly it works as folows:
 
 ![Android_Demo](https://github.com/Lkham/ChatBot/blob/master/Demo/Android-Demo.gif)
