@@ -7,7 +7,7 @@ The chatbot is built by the client-server model. The client side is a smartphone
 ## Server
 The server software is developed in Python. It includes a pre-trained machine learning model and socket server that communicates with android app. More about the pre-trained machine learning model is [🦄 here](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313).
 
-Server give us selected model personality, server ip address and port numbers as shown below. Also user can choose the port number that is not used.
+Server give us selected model personality, server ip address and port numbers as shown below. If the defualt port numbers are already taken, users can set their own port numbers that is not used.
 
 <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/server.png" width="500">
 
