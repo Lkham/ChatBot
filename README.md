@@ -33,7 +33,7 @@ python -m spacy download en
 ```
 
 ## DEMO
-* First we need to start the server. You can then run the `Server.py` script in Server folder:
+* First we need to start the server by runing the `Server.py` script in Server folder:
 
 ![Server_Demo](https://github.com/Lkham/ChatBot/blob/master/Demo/Server_Demo.gif)
 
@@ -41,6 +41,7 @@ python -m spacy download en
   1. Copy `chatbot.apk` to your device
   2. Install it on your device
   3. Run the application
+  4. Enter server IP address and port numbers on the settings window
   
 * Finaly it works as folows:
 
