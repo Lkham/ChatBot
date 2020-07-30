@@ -9,13 +9,13 @@ The server software is developed in Python. It includes a pre-trained machine le
 ## Client
 The client application is developed in Java using Android Studio. Its Graphical User Interface consists of the following parts:
 * Icon
-![icon](https://github.com/Lkham/ChatBot/blob/master/Demo/icon.png)
+![icon](https://github.com/Lkham/ChatBot/blob/master/Demo/icon.png=250x250)
 * Splash Screen
-![splash Screen](https://github.com/Lkham/ChatBot/blob/master/Demo/splashScreen.png)
+![splash Screen](https://github.com/Lkham/ChatBot/blob/master/Demo/splashScreen.png=250x250)
 * Settings Window
-![Settings Window](https://github.com/Lkham/ChatBot/blob/master/Demo/SettingsWindow.png)
+![Settings Window](https://github.com/Lkham/ChatBot/blob/master/Demo/SettingsWindow.png=250x250)
 * Main Conversation Window
-![Main Conversation Window](https://github.com/Lkham/ChatBot/blob/master/Demo/MainWindow.png)
+![Main Conversation Window](https://github.com/Lkham/ChatBot/blob/master/Demo/MainWindow.png=250x250)
 ** Screen (for displaying the conversation log)
 ** Text input field (for displaying the input text that is being typed)
 ** Button-1 (for audio input) 
