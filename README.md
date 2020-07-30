@@ -6,6 +6,26 @@ The chatbot is built by the client-server model. The client side is a smartphone
 * User's input is audio
 ## Server
 The server software is developed in Python. It includes a pre-trained machine learning model and socket server that communicates with android app. More about the pre-trained machine learning model is [🦄 here](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313).
+
+Server give us selected model personality, server ip address and port numbers as shown below. Also user can choose the port number that is not used.
+
+<img src="https://github.com/Lkham/ChatBot/blob/master/Demo/server.png" width="500">
+
+### Installation
+
+In order to run the server, please clone the repo and install the requirements:
+
+```bash
+git clone https://github.com/Lkham/ChatBot.git
+cd ChatBot
+pip install -r requirements.txt
+python -m spacy download en
+```
+## Server DEMO
+* **First** we need to start the server by runing the `Server.py` script in Server folder:
+
+![Server_Demo](https://github.com/Lkham/ChatBot/blob/master/Demo/Server_Demo.gif)
+
 ## Client
 The client application is developed in Java using Android Studio. Its Graphical User Interface consists of the following parts:
 * **Icon** 
@@ -21,23 +41,10 @@ The client application is developed in Java using Android Studio. Its Graphical 
 
 <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/icon.png" width="230"> <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/splashScreen.png" width="230"> <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/SettingsWindow.png" width="230"> <img src="https://github.com/Lkham/ChatBot/blob/master/Demo/MainWindow.png" width="230">
 
-## Installation
 
-In order to run the server, please clone the repo and install the requirements:
+## Client DEMO
 
-```bash
-git clone https://github.com/Lkham/ChatBot.git
-cd ChatBot
-pip install -r requirements.txt
-python -m spacy download en
-```
-
-## DEMO
-* First we need to start the server by runing the `Server.py` script in Server folder:
-
-![Server_Demo](https://github.com/Lkham/ChatBot/blob/master/Demo/Server_Demo.gif)
-
-* Second we need to install our *ai chatbot app* on our android device using `chatbot.apk`.
+* **Second** we need to install our *ai chatbot app* on our android device using `chatbot.apk`.
   1. Copy `chatbot.apk` to your device
   2. Install it on your device
   3. Run the application
