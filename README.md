@@ -30,6 +30,7 @@ git clone https://github.com/Lkham/ChatBot.git
 cd ChatBot
 pip install -r requirements.txt
 python -m spacy download en
+```
 
 ## DEMO
 1. First we need to start the server
